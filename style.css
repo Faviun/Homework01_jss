@@ -1,0 +1,29 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    min-width: 100px;
+    max-width: 500px;
+    min-height: auto;
+    max-height: 250px;
+}
+
+.headButtons {
+    height: 50px;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.but{
+    background-color: rgb(238, 137, 64);
+    font-size: larger;
+    padding: 10px;
+}
